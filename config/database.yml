@@ -2,6 +2,8 @@ defaults: &defaults
   adapter: postgresql
   encoding: unicode
   pool: 5
+  username: postgres
+  password: password
 
   # Minimum log levels, in increasing order:
   #   debug5, debug4, debug3, debug2, debug1,
