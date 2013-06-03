@@ -69,7 +69,7 @@ GIT
       thor
 
 GIT
-  remote: https://github.com/travis-ci/travis-assets
+  remote: https://github.com/musicglue/travis-assets
   revision: 6b9151dd386f69ef8f227c29b5171703d55bf4b7
   specs:
     travis-assets (0.0.1)
