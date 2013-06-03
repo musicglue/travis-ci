@@ -42,7 +42,7 @@ TravisCi::Application.configure do
     Travis::LogSubscriber::ActiveRecordMetrics.attach
   end
 
-  config.middleware.insert_before(::Rack::Lock, ::Rack::SSL)
+  # config.middleware.insert_before(::Rack::Lock, ::Rack::SSL)
   config.middleware.insert_before(::Rack::Lock, 'Refraction')
 
   Hubble.setup if ENV['HUBBLE_ENV']
