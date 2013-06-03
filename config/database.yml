@@ -1,6 +1,7 @@
 defaults: &defaults
   adapter: postgresql
   encoding: unicode
+  host: localhost
   pool: 5
   username: postgres
   password: password
@@ -14,7 +15,6 @@ defaults: &defaults
 development:
   <<: *defaults
   database: travis_development
-  host: localhost
 
 jasmine:
   <<: *defaults
@@ -27,4 +27,3 @@ production:
 test:
   <<: *defaults
   database: travis_test
-  host: localhost
