@@ -4,7 +4,6 @@ db/seeds/data.sql
 .rvmrc
 public/assets
 config/resque.god
-config/travis.yml
 config/travis.yml.backup
 config/initializers/localeapp.rb
 db/*.sqlite3

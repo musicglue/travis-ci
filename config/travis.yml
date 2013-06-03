@@ -23,3 +23,6 @@ development:
 
 test:
   host: test.travis-ci.org
+
+vagrant:
+  host: travis-vagrant.musicglue.com
