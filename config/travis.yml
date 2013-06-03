@@ -28,3 +28,5 @@ vagrant:
   host: travis-vagrant.musicglue.com
   assets:
     host: travis-assets-vagrant.musicglue.com
+    version: d91ea46e
+
