@@ -70,7 +70,8 @@ GIT
 
 GIT
   remote: https://github.com/musicglue/travis-assets
-  revision: 6b9151dd386f69ef8f227c29b5171703d55bf4b7
+  revision: 040ca6aae3e57654f086f9370212e55b2f8ce31b
+  branch: deploy
   specs:
     travis-assets (0.0.1)
 

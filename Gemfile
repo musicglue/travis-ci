@@ -50,7 +50,7 @@ gem 'unicorn',              '~> 4.1.1'
 group :development, :test do
   gem 'thin',               '~> 1.3.1'
 
-  gem 'travis-assets',  git: 'https://github.com/musicglue/travis-assets', require: 'travis/assets/railtie'
+  gem 'travis-assets',  git: 'https://github.com/musicglue/travis-assets', branch: 'deploy', require: 'travis/assets/railtie'
   gem 'rake-pipeline',  git: 'https://github.com/livingsocial/rake-pipeline.git'
   gem 'rake-pipeline-web-filters', git: 'https://github.com/wycats/rake-pipeline-web-filters.git'
 

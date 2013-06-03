@@ -26,3 +26,5 @@ test:
 
 vagrant:
   host: travis-vagrant.musicglue.com
+  assets:
+    host: travis-assets-vagrant.musicglue.com
