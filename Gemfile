@@ -6,6 +6,7 @@ gem 'travis-core',    git: 'git://github.com/travis-ci/travis-core', require: 't
 gem 'travis-support', git: 'git://github.com/travis-ci/travis-support'
 gem 'travis-sidekiqs', github: 'travis-ci/travis-sidekiqs', require: nil
 
+gem 'therubyracer'
 gem 'rails',                '~> 3.2.12'
 gem 'execjs',               '1.3.0'
 gem 'rake'
