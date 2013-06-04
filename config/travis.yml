@@ -25,7 +25,13 @@ test:
   host: test.travis-ci.org
 
 vagrant:
-  host: travis-vagrant.musicglue.com
+  host: travis-vagrant.musicglue.co
+  amqp:
+    host: vm-travis-hub
+    port: 5672
+    username: travisci_hub
+    password: travisci_hub_password
+    vhost: travisci.vagrantm
   assets:
     host: travis-assets-vagrant.musicglue.com
     version: d91ea46e
